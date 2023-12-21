@@ -1,7 +1,6 @@
 # graduation-project
 Summarize specific chapters in an e-book to create appropriate images
 
-```
 ## Requirements
 ```
 torch==2.0.1
@@ -11,6 +10,7 @@ lightning==2.0.8
 streamlit==1.26.0
 wandb==0.15.9
 ```
+
 ## Data
 - [문화 빅데이터 플랫폼 - 도서별 상세정보](https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=63513d7b-9b87-4ec1-a398-0a18ecc45411) 의 데이터 활용
 - 학습 데이터에서 임의로 Train / Test 데이터 생성
@@ -18,6 +18,7 @@ wandb==0.15.9
 - Data 구조
     - Train Data : 18,640
     - Test Data : 4,661
+  
   
 | BOOK_INTRCN_CN  | SUMMARY |
 |-------|--------:|
