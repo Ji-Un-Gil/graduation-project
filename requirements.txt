@@ -1,0 +1,9 @@
+pandas
+torch
+transformers
+pytorch-lightning
+torchmetrics
+streamlit
+fastparquet
+fastapi
+numpy
